@@ -1,0 +1,59 @@
+git add .
+git restore .
+
+git rm index.html
+git status
+git log
+git restore -S .
+git commit -m "new change"
+git mv old.txt new.txt
+
+
+git diff
+git log --oneline
+git reset --hard hash_id
+git reset hash_id
+
+
+create new branch
+git switch -c "branch_name"
+git checkout -b "branch_name"
+
+delete branch
+git branch --d NAME
+git branch --delete NAME
+git branch --D NAME
+git merge "tobe_merged_branch"
+
+git flow:
+1.create a new branch for feature changes
+2.Make changes
+3.merge to origial branch
+4.delete old branch
+
+stashing :
+git stash list
+git stash
+git stash apply "id"
+git stash pop 
+
+git clean -n #### files
+git clean -d ### directory
+git clean -f ### both files and directory
+
+
+### git remote
+
+git remote add origin URL
+git push --all
+
+
+#### all the branches
+git branch -a
+
+git push --set-upstream origin local_branch
+git pull URL
+git fetch 
+
+
+
